@@ -1,0 +1,49 @@
+{
+  "flights": [],
+  "flight": {
+    "arrival": {
+      "timeRemaining": "8 hr 24 min",
+      "onGroundTime": null,
+      "inGateTime": null,
+      "gate": "D21A",
+      "baggage": "CUST",
+      "arrivalDateTime": "2025-08-22T15:55:00-05:00",
+      "airport": "Dallas Fort Worth Intl",
+      "airportCity": "Dallas",
+      "airportCode": "DFW",
+      "airportCountryCode": "US",
+      "airportSlug": "DFW-Dallas-TX-(Dallas/Ft Worth)",
+      "scheduledTime": "14:40, Aug 22",
+      "estimatedTime": "15:55, Aug 22",
+      "terminal": "D"
+    },
+    "departure": {
+      "offGroundTime": "18:05, Aug 22",
+      "outGateTime": null,
+      "gate": "139",
+      "departureDateTime": "2025-08-22T18:05:00+09:00",
+      "airport": "Tokyo Intl",
+      "airportCity": "Tokyo",
+      "airportCode": "HND",
+      "airportCountryCode": "JP",
+      "airportSlug": "HND-Tokyo-Japan-(Haneda)",
+      "scheduledTime": "16:30, Aug 22",
+      "estimatedTime": null,
+      "terminal": "T3"
+    },
+    "titles": {
+      "main": "American Airlines (AA) 176",
+      "sub": null
+    },
+    "aircraft": {
+      "id": 77,
+      "code": "788",
+      "name": "Boeing 787-8 pax"
+    },
+    "flightStatus": "In Air",
+    "showMap": true,
+    "scheduleInstanceKey": "88f45b4f33684aa00a21eabdd45e7d4a5756bdf4c051f59acdc22c1dee08b593",
+    "previousFlight": null
+  },
+  "emptyResults": false
+}

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Mapbox GL CSS */
+@import "mapbox-gl/dist/mapbox-gl.css";
+
+:root {
+  --skyradar-green: #179c3c;
+  --skyradar-black: #000000;
+  --skyradar-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--skyradar-white);
+  color: var(--skyradar-black);
+}
+
+/* Mapbox container styles */
+.mapboxgl-map {
+  font-family: inherit;
+}
+
+.mapboxgl-popup {
+  font-family: inherit;
+}
