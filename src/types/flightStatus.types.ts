@@ -41,7 +41,7 @@ export interface FlightMapData {
 }
 
 // Status-based rendering configuration
-export interface StatusDisplayRules {
+export type StatusDisplayRules = {
   [K in FlightStatus]: {
     showPlane: boolean;
     showRoute: boolean;
